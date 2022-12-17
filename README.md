@@ -1,26 +1,30 @@
-# Pizza Form
+# Pizza Form 
 
 A simple form for creating and managing pizza orders.
 
+# Addmember Form 
+
+A simple form for creating and saving name,email.address 
+
 ## View
 
-The view for the pizza form is created using HTML and Bootstrap for styling. It includes form fields for entering the name, toppings, and size of the pizza, as well as a submit button to send the form data to the server.
+The view for the pizza, add form is created using HTML and Bootstrap for styling. It includes form fields for entering the name, toppings, and size of the pizza, as well as a submit button to send the form data to the server.
 
 ## Model
 
-The model for the pizza form is created using a database migration. It includes fields for storing the name, toppings, and size of the pizza, as well as a timestamp for when the order was created.
+The model for the pizza,add form is created using a database migration. It includes fields for storing the name, toppings, and size of the pizza, as well as a timestamp for when the order was created.
 
 ## Migration
 
-The migration for the pizza form creates the necessary tables in the database to store the form data. It includes fields for the name, toppings, size, and timestamp of the pizza.
+The migration for the pizza,add form creates the necessary tables in the database to store the form data. It includes fields for the name, toppings, size, and timestamp of the pizza and addmemeber.
 
 ## Controller
 
-The controller for the pizza form handles the logic for creating and managing pizza orders. It receives the form data from the view, validates it, and then saves it to the database using the model.
+The controller for the pizza,add form handles the logic for creating and managing pizza orders. It receives the form data from the view, validates it, and then saves it to the database using the model.
 
 ## Route
 
-The route for the pizza form defines the URL path for accessing the form and the controller action to handle the request. It allows users to access the form via a web browser and submit their pizza orders.
+The route for the pizza,add form defines the URL path for accessing the form and the controller action to handle the request. It allows users to access the form via a web browser and submit their pizza, addmember orders.
 
 ## Uses
 

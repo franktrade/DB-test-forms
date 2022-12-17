@@ -5,17 +5,20 @@
     <label for="name">your Name:</label>
     <input type="text" id="name" name="name">
 
-    <label for="type">Type:</label><br>
+    <label for="type">Choose pizza Type:</label>
     <select id="type" name="type">
-        <option value="meat">Meat</option>
-        <option value="vegetarian">Vegetarian</option>
-        <option value="vegan">Vegan</option>
-    </select><br>
-    <label for="base">Base:</label><br>
+        <option value="margarita">margarita</option>
+        <option value="hawaiian">Hawaiian</option>
+        <option value="veg supreme">veg supreme</option>
+        <option value="volcano">volcano </option>
+    </select>
+    <label for="base">Base:</label>
     <select id="base" name="base">
-        <option value="thin">Thin</option>
+        <option value="chessy crust">chessy crust</option>
+        <option value="garlic crust">Garlic crust</option>
+        <option value="thin & cripsy">Thin & cripsy</option>
         <option value="thick">Thick</option>
-    </select><br><br>
+    </select>
     <button type="submit">Submit</button>
 </form>
 
